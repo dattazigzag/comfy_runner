@@ -1,8 +1,8 @@
 # README
 
 > WIP
+![alt text](docs/comfy_runner_flow.png)
 
-![alt text](docs/comfy_runner_architechture.png)
 
 A general purpose yet advanced python-based middleware service that provides a comprehensive REST API interface for executing ComfyUI workflows. It features real-time WebSocket event streaming, relaying web socket messages from ComfyUI to others. For example, sending realtime preview image data byte streams from KSampler nodes via websockets.
 It is also capable of dynamically updating input node values and is designed to be general purpose with flexible configuration-driven node management.
@@ -139,7 +139,7 @@ The server will:
 - __8190__: Middleware WebSocket relay (configurable)
 
 
-![alt text](docs/comfy_runner_flow.png)
+![alt text](docs/comfy_runner_architechture.png)
 
 
 ## HTTP API Endpoints
