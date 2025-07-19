@@ -1,0 +1,13 @@
+[project]
+name = "09-comfy-runner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "colorama>=0.4.6",
+    "requests>=2.32.4",
+    "toml>=0.10.2",
+    "websockets>=15.0.1",
+]

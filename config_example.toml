@@ -1,0 +1,17 @@
+[comfy]
+# ComfyUI server connection settings for both http queue reqs and ws process stuff
+host = "0.0.0.0"
+port = 8188
+workflow = "workflows/sample_workflow_api.json"
+ollama_prompt_node_id = 220
+
+[http-server]
+# Light weight self server settings for the API calls to this runner
+port = 8189
+
+[server]
+# Websocket port for the comdfy ws messages relay
+ws_port = 8190 
+
+[node_mappings]
+save_image_node_id = 9
